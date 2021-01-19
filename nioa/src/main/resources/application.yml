@@ -1,0 +1,12 @@
+mybatis:
+  type-aliases-package: com.nioa.domain
+  mapper-locations: classpath:sqlmap/*/*.xml,classpath:mybatis/mysql/*.xml
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dasanshixun?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: name
+    driver-class-name: com.mysql.cj.jdbc.Driver
